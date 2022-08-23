@@ -1,36 +1,36 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import millionaire from "../assets/portfolio/millionaire.png";
+import food from "../assets/portfolio/food.png";
+import server from "../assets/portfolio/server.png";
+import book from "../assets/portfolio/book.png";
+import todo from "../assets/portfolio/todo.png";
+import profile from "../assets/portfolio/profile.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: millionaire,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: food,
     },
     {
       id: 3,
-      src: navbar,
+      src: server,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: book,
     },
     {
       id: 5,
-      src: installNode,
+      src: todo,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: profile,
     },
   ];
 
