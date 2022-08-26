@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Resume from "../assets/portfolio/Resume.pdf"
 
 const SocialLinks = () => {
   const links = [
@@ -59,7 +60,7 @@ const SocialLinks = () => {
             }
           >
             <a
-              href={href}
+              href={Resume}
               className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
